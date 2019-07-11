@@ -3,4 +3,7 @@
 .tab40 {margin: 0px 0px 0px 40px}/* faire une marge de 40px*/
 .souligner{text-decoration: underline;}/*souligner une phrase ou un mot*/
 .italic {font-style: italic;}/* Mettre en italic*/
-.tab40 {margin: 0px 0px 0px 30px}/* faire une marge de 30px*/
+.tab30 {margin: 0px 0px 0px 30px}/* faire une marge de 30px*/
+.petit {font-size: smaller}/* ratécir l'écriture*/
+.vert{color: green}/*Mettre le mot en vert*/
+.rouge{color: red}/*Mettre le mot en rouge*/
