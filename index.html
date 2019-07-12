@@ -6,8 +6,8 @@
   <title>Récap</title>
 </head>
 <body>
-  <h1>Mes début en css</h1>
-  <h3>Link sont fichier html à sont fichier css</h3>
+  <h1>Mes début en css</h1
+  <h2>Link sont fichier html à sont fichier css</h2>
   <p>Tout d'abord nous devons faire notre base html puis utiliser la commande <span class="gras">link</span> pour lier notre fichier <span class="gras">html</span> à notre fichier <span class="gras">css</span> qu'on auras besoin a plus tard</p>
   <p>&ltlink rel="stylesheet" href="l'endroit de  votre fichier style.css"&gt</p>
   <span class="souligner"><p>Une fois cela fait notre code donnera cela :</p></span>
@@ -17,7 +17,7 @@
     <span class="tab40">&ltmeta charset="utf-8"&gt</span></br>
     <span class="tab40">&ltlink rel="stylesheet" href="assets/css/style.css"&gt</span></br>
     <span class="tab40">&lttitle&gt&lt/title&gt</br></span>
-    <span class="tab20"><span class="tab20">&lt/head&gt</br></span>
+    <span class="tab20">&lt/head&gt</br></span>
     <span class="tab20">&ltbody&gt</br></br></span>
     <span class="tab20">&lt/body&gt</br></span>
     &lt/html&gt</p>
@@ -38,7 +38,7 @@
         <span class="tab40">&ltmeta charset="utf-8"&gt</span></br>
         <span class="tab40">&ltlink rel="stylesheet" href="assets/css/style.css"&gt</span></br>
         <span class="tab40">&lttitle&gt&lt/title&gt</br></span>
-        <span class="tab20"><span class="tab20">&lt/head&gt</br></span>
+        <span class="tab20">&lt/head&gt</br></span>
         <span class="tab20">&ltbody&gt</br></span>
         <span class="tab30">&ltp&gtAujourd'hui j'ai était mangé au macdo c'était <span class="gras">&ltspan&gt</span>mauvais<span class="gras">&lt/span&gt</span>&lt/p&gt</br>
         <span class="tab20">&lt/body&gt</br></span>
@@ -54,7 +54,7 @@
           <span class="tab40">&ltmeta charset="utf-8"&gt</span></br>
           <span class="tab40">&lttitle>&lt/title&gt</span></br>
           <span class="tab40">&ltlink rel="stylesheet" href="style.css"&gt</span></br>
-          <span class="tab40">&lt/head&gt</span></br>
+          <span class="tab20">&lt/head&gt</span></br>
           <span class="tab20">&ltbody&gt</span></br>
           <span class="tab20">&lth4&gtCitizen Kane&lt/h4&gt</span></br>
           <span class="tab30">&ltp&gt&ltspan1&gtkane&lt/span1&gt, favori pour le poste de gourveneur, tient son discours de campagne.
@@ -71,10 +71,56 @@
               </span></p>
               <p><span class="souligner">Une fois le html et le css lier cela nous donnera ça :</span></p>
               <h4>Citizen Kane</h4>
-<p><span class="rouge">kane</span>, favori pour le poste de gourveneur, tient son discours de campagne.
-Au début des années 1940,<span class="rouge"> Charles Foster Kane </span> meurt dans son manoir de
-<span class="vert">Xanadu</span>, un vaste domaine palatial de <span class="vert">Floride</span>,en prononçant dans un dernier
-soufle <span class="italic">rosebud.</span></p>
+              <p><span class="rouge">Kane</span>, favori pour le poste de gourveneur, tient son discours de campagne.
+                Au début des années 1940,<span class="rouge"> Charles Foster Kane </span> meurt dans son manoir de
+                <span class="vert">Xanadu</span>, un vaste domaine palatial de <span class="vert">Floride</span>,en prononçant dans un dernier
+                soufle <span class="italic">rosebud.</span></p>
+                <h4>changer la police</h4>
+                <p>Pour changer la police rien de compliqué nous allons utliserons directement<span class="gras">&ltp&gt</span> pour prendre tout le paragraphe, comme ça tout les paragraphe seront dans la police que nous voulons, puis dans le <span class="gras">css</span> nous utiliserons la commande <span class="gras">font-family</span> puis mettre la police que nous voulons</p>
+                <p><span class="souligner">Le html donnera ça :</span></p>
+                <span class="italic">&lt!DOCTYPE html&gt
+                  <p>&lthtml lang="en" dir="ltr"&gt</span></br>
+                    <span class="tab20">&lthead&gt</span></br>
+                    <span class="tab40">&ltmeta charset="utf-8"&gt</span></br>
+                    <span class="tab40">&lttitle>Changer de police&lt/title&gt</span></br>
+                    <span class="tab40">&ltlink rel="stylesheet" href=style.css&gt</span></br>
+                    <span class="tab20">&lt/head&gt</span></br>
+                    <span class="tab20">&ltbody&gt</span></br>
+                    <span class="tab30">&lth1&gtTest changer la police&lt/h1&gt</span></br>
+                    <span class="tab30">&ltp&gt Test passer la police en Arial. &lt/p&gt</span></br>
+                    <span class="tab20">&lt/body&gt</span></br>
+                    &lt/html&gt</br></span></p>
+                    <p><span class="souligner">Le css donnera ça :</span></p>
+                    <p>p{font-family: Arial}</p>
+                    <p><span class="souligner">Une fois le html et le css lier cela nous donnera ça :</span></p>
+                    <th1>Test changer la police</h1>
+                      <p><span class="Arial">Test passer la police en Arial.</span></p>
+                      <h6>Mettre une couleur en fond de paragraphe</h6>
+                      <p>Pour cela nous pouvons directement mettre avec le <span class="gras">&ltp&gt</span> mais nous allons utiliser la balise <span class="gras">&ltspan&gt.</span></p>
+                      <span class="souligner"><p>Le html donnera ça:</p></span>
+                      <p><span class="italic">&lt!DOCTYPE html&gt</br>
+                                &lthtml lang="en" dir="ltr"&gt</br>
+                                <span class="tab20">&lthead&gt</span></br>
+                                <span class="tab40">&ltmeta charset="utf-8"&gt</span></br>
+                                <span class="tab40">&lttitle>&lt/title&gt</span></br>
+                                <span class="tab40">&ltlink rel="stylesheet" href="style.css"&gt</span></br>
+                                <span class="tab20">&lt/head&gt</span></br>
+                                <span class="tab20">&ltbody&gt</span></br>
+                                <span class="tab20">&lth4&gtCitizen Kane&lt/h4&gt</span></br>
+                                <span class="tab30">&ltp&gt&ltspan&gtkane, favori pour le poste de gourveneur, tient son discours de campagne.
+                                  Au début des années 1940, Charles Foster <span class="tab30">Kane meurt dans son manoir de
+                                    Xanadut, un vaste domaine palatial de Floride,en prononçant dans un <span class="tab30">dernier
+                                      soufle rosebud&lt/span&gt&lt/p&gt</span></span></span></br>
+                                      <span class="tab20">&lt/body&gt</span></br>
+                                      &lt/html&gt
+                                    </span></p>
+                                    <p>span{backgroun-color: blue}</p>
+                                    <p><span class="souligner">Le css donnera ça :</span></p>
+                                    <p><span class="souligner">Une fois le html et le css lier cela nous donnera ça :</span></p>
+                                    <p><span class="fondbleu">kane, favori pour le poste de gourveneur, tient son discours de campagne. Au début des années 1940, Charles
+                                     Foster Kane meurt dans son manoir de Xanadu, un vaste domaine palatial de Floride,en prononçant dans undernier soufle rosebud</span></p>
 
-            </body>
-            </html>
+
+
+                    </body>
+                    </html>
